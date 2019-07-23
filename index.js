@@ -1,9 +1,3 @@
-/*
- 0 Obter um usuario
- 1 Obter o numero de telefone de um usuario a partir de seu Id
- 2 Obter o endereco do usuario pelo Id 
-*/
-// importamos um módulo interno do node.js
 const util = require('util')
 const obterEnderecoAsync = util.promisify(obterEndereco)
 
