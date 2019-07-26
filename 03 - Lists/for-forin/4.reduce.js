@@ -22,7 +22,7 @@ async function main() {
         //     return anterior + proximo
         // }, 0)
         const minhaLista = [
-            ['Erick', 'Wendel'],
+            ['Diego', 'Pisani'],
             ['NodeBR', 'Nerdzão']
         ]
         const total = minhaLista.meuReduce((anterior, proximo) => {
