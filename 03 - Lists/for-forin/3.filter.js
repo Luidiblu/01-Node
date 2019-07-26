@@ -2,17 +2,6 @@ const {
     obterPessoas
 } = require('./service')
 
-/*
-
- const item = {
-     nome: 'Erick',
-     idade: 12,
-
- }
-
- const { nome , idade } = item
- console.log(nome, idade)
-*/
 Array.prototype.meuFilter = function (callback) {
     const lista = []
     for (index in this) {
