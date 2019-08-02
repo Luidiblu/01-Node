@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha -w --reporter nyan"
   },
-  "author": "erickwendel",
+  "author": "diegopisani",
   "license": "ISC",
   "devDependencies": {
     "mocha": "^5.2.0"
